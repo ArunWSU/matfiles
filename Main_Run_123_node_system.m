@@ -24,8 +24,8 @@ Meter_values_index=0;
 % DSSSolution.InitSnap; % To initialize rhe monitors if it exists
 %% Case 0 - No regulator controls Default_123, 1: Reg controls time, 2:Reconfigutaions
 DSSSolution.dblHour=0.0;
-use_case=3;
-Noofhours=5;
+use_case=23;
+Noofhours=24;
 switch use_case
     case 0
         DSSText.Command='Set Controlmode=OFF';
